@@ -2,10 +2,10 @@
 git merge driver for Visual Basic 6 files (frm ctl vbp)
 
 ## Requirements
-git.exe needs to be available on your PATH
+`git.exe` needs to be available on your PATH
 
 ## How to install:
-Edit your .gitconfig and .gitattributes, ie:
+Edit your `.gitconfig` and `.gitattributes`, ie:
 
 ```
 #.gonfig
@@ -35,7 +35,7 @@ Edit your .gitconfig and .gitattributes, ie:
 * Ignores GUID and Library Names are ignored.
 * Matches version number and library path
 * Relative Library paths and resolved their 
-* If two references Math, they're merged with a keep-ours strategy
+* If two references match, they're merged with a keep-ours strategy
 
 this allows to solve merging conflicts like
 
@@ -51,7 +51,7 @@ Reference=*\G{2555402F-0C65-4FE8-90E0-7757F47E3275}#1.0#0#..\B\C.dll#
 * Keep the newest line
 
 ### Everything else:
-* Quotes are ignored when matching values, ie, the following conflict would resolve to THEIR.
+* Quotes are ignored when matching values, ie, the following conflict would resolve to **THEIR**.
 
 
 ```
