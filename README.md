@@ -51,7 +51,7 @@ Reference=*\G{2555402F-0C65-4FE8-90E0-7757F47E3275}#1.0#0#..\B\C.dll#
 * Keep the newest line
 
 ### Everything else:
-* Quotes are ignored when matching values, ie, the following conflict would resolve to **THEIR**.
+* Quotes are ignored when matching values, ie, the following conflict would resolve to **THEIRS**.
 
 
 ```
